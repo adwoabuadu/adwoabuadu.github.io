@@ -1,0 +1,149 @@
+/* CSS used here will be applied after bootstrap.css */
+body {
+	font-family: 'Ubuntu', sans-serif;
+	height: 100%;
+	width: 100%;  
+ 	text-align: center;
+ 	position: absolute;
+ 	background: url('https://wallpaperscraft.ru/image/bloknot_telefon_iphone_apple_chashka_ruchka_110011_3000x2000.jpg') no-repeat center top fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+    overflow-x: hidden;
+    display: block;
+}
+
+  @media(min-width:767px) {
+    .navbar {
+        padding: 15px 25px;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0px 25px;
+    }
+	
+	.brand-heading {
+    	font-size: 100px;
+  	}
+     
+}
+
+@media(max-width:766px) {
+	.nav.navbar-nav li a {
+  		background: rgba(0,0,0,1);
+    }
+    .services-section {
+        display: inline-table;
+    }
+ }
+
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain; 
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+  font-size: 500%;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+.flag-icon-gh {
+  background-image: url(../flags/4x3/gh.svg);
+}
+.flag-icon-gh.flag-icon-squared {
+  background-image: url(../flags/1x1/gh.svg);
+}
+
+/*new!*/
+.intro-section .flag-icon {
+        position: fixed;
+        bottom: 0;
+        right: 25px;
+    } 
+
+.nav.navbar-nav li a {
+	color: #fff;
+  	font-size: large;
+}
+
+h1 {
+	padding-bottom: 35px;  	
+}
+
+p {
+	padding-bottom: 25px;
+  	font-family: 'Lato', sans-serif;
+  	font-size: medium;
+}
+
+.intro-section {
+    height: 100%;
+  	width: 100%;
+	padding-top: 100px;
+  	padding-bottom: 50px;  
+    text-align: center;
+  	color: #fff;
+   	background: rgba(0,0,0,0.3);
+  	top: 50%;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 50px;
+  	padding-bottom: 50px;
+    text-align: center;
+    background: #fff;
+}
+  
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+  	vertical-align: top;
+}
+
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+
+.fa {
+	padding-bottom: 15px;
+}
+
+p.demi {
+	font-weight: 900;
+}  
+
+.contact-us {
+    height: 100%;
+    padding-top: 175px;
+  	padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-us p {
+	font-size: large;
+  	color: #FF4500;	
+}    
